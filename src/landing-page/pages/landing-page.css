@@ -1,0 +1,47 @@
+.Landing-Page {
+  padding: 120px 0;
+}
+.Landing-Page .title {
+  font-family: "Neuton", serif;
+  font-size: 90px;
+  font-weight: 900;
+  line-height: 85px;
+}
+.Landing-Page .subtitle {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 35px;
+  padding: 25px 0;
+}
+.SocialMediaCont {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  padding: 0 0 25px 0;
+}
+.SocialMediaCont img {
+  margin-right: 50px;
+}
+.create-an-acc {
+  border-radius: 50px;
+  background-color: white;
+  padding: 40px;
+  width: 480px;
+  box-shadow: rgb(0 0 0 / 10%) 0px 10px 50px;
+}
+.form-title {
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+}
+.create-an-acc label {
+  font-size: 16px;
+  font-weight: 500;
+  padding: 15px 0;
+}
+.create-an-acc input {
+  border: 2px solid #dadada;
+  border-radius: 20px;
+  width: 100%;
+  padding: 5px;
+}

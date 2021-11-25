@@ -1,0 +1,22 @@
+.active-projects-container {
+}
+
+.active-projects-row {
+  width: 90%;
+  margin: 3% 5%;
+  justify-content: space-between;
+  display: flex;
+}
+
+.active-projects-box {
+  background-color: #fff7df;
+  width: 30%;
+  height: 150px;
+  border-radius: 20px;
+}
+
+.active-projects-title {
+  font-size: 30px;
+  font-weight: 700;
+  color: rgb(38, 38, 38);
+}

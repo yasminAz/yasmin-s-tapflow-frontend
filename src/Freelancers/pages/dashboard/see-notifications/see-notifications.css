@@ -1,0 +1,42 @@
+.see-all-notifications {
+  width: 50%;
+  height: 40vh;
+}
+
+.see-all-notifications-header {
+  display: flex;
+  justify-content: space-around;
+}
+
+.see-all-notifications-title {
+  font-size: 20px;
+  color: rgb(28, 28, 28);
+  font-weight: 800;
+}
+
+.see-all-notifications-btn {
+  font-size: 10px;
+  color: rgb(28, 28, 28);
+  font-weight: 300;
+  text-decoration: underline;
+  margin: 0;
+}
+
+.see-all-notifications-col {
+  /* justify-content: space-evenly; */
+  padding: 3%;
+  width: 90%;
+  margin: 0 5%;
+}
+
+.see-all-notifications-box {
+  width: 90%;
+  margin: 3% 5%;
+  padding: 5px 35px;
+  height: 30px;
+  background-color: #e57128;
+  color: white;
+  text-decoration: none;
+  border-radius: 20px;
+  font-weight: 600;
+}

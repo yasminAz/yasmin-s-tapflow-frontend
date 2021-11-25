@@ -1,0 +1,71 @@
+.fl-navbar-main-container {
+  position: absolute;
+  width: 77%;
+  /* margin: 0 10%; */
+  top: 18vh;
+  right: 40px;
+  height: 60vh;
+}
+
+.fl-navbar-contianer {
+  height: 57vh;
+  width: 175px;
+  position: fixed;
+  top: 50%;
+  left: 5%;
+  transform: translate(0, -50%);
+  border-radius: 20px;
+  background-color: #fff7df;
+}
+
+.fl-navbav-btn {
+  display: block;
+  width: 100%;
+  margin: 28px;
+  height: 25px;
+  text-decoration: none;
+  font-size: 20px;
+  color: rgb(38, 38, 38);
+}
+
+.fl-navbar-tf-logo {
+  position: fixed;
+  top: 5%;
+  left: 9%;
+}
+
+.fl-navbar-profile {
+  /* position: absolute;
+  right: 7%;
+  top: 20px; */
+}
+
+.fl-navbar-dropdown {
+  position: absolute;
+  right: 100px;
+  top: 16px;
+}
+
+.fl-navbar-profile img {
+  object-fit: cover !important;
+  width: 50px !important;
+  height: 50px !important;
+  border-radius: 50px !important;
+}
+
+.fl-navbar-explore-btn {
+  position: absolute;
+  right: 15%;
+  top: 20px;
+  padding: 12px 30px;
+  height: 50px;
+  background-color: #e57128;
+  color: white;
+  text-decoration: none;
+  border-radius: 20px;
+  font-weight: 600;
+}
+
+.fl-navbar-explore-btn:hover {
+  color: white;
+}

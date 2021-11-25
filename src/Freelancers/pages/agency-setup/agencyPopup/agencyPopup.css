@@ -1,0 +1,27 @@
+.agency-popup-box {
+  border: 1px outset #999;
+  background-color: white;
+  -webkit-box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.4);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 20%;
+  width: 30%;
+  z-index: 300;
+}
+
+.agency-popup-hide {
+  display: none;
+}
+
+.agency-popup-form {
+  width: 90%;
+  margin: 5% 5%;
+}
+
+.agency-popup-input {
+  width: 100%;
+  margin: 10px 0;
+}

@@ -1,0 +1,35 @@
+.choice-raisedbox {
+  border: 1px outset #999;
+  -webkit-box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.4);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 40%;
+  width: 50%;
+}
+
+.fl-signup-form-box {
+  width: 90%;
+  margin: 0 5%;
+}
+
+.fl-signup-input {
+  width: 100%;
+  margin: 10px 0;
+}
+
+.af-choice-box-row {
+  display: flex;
+  width: 90%;
+  justify-content: space-around;
+  margin: 5% 5%;
+}
+
+.af-choice-box {
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+  border-radius: 5px;
+}

@@ -1,0 +1,64 @@
+.explore-projects-box {
+  width: 40%;
+  background-color: #fff7df;
+  border-radius: 20px;
+  padding: 40px 25px 15px 25px;
+  position: relative;
+}
+
+.explore-projects-box-image {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: white;
+  border: 0.5px #e57128 solid;
+  position: absolute;
+  left: 25px;
+  top: -25px;
+}
+
+.explore-projects-box-title {
+  /* margin-top: 10; */
+  font-size: 20px;
+  font-weight: 800;
+  color: rgb(22, 22, 22);
+}
+.explore-projects-box-ago {
+  margin: 3px 0;
+  font-size: 12px;
+  font-weight: 800;
+  color: rgb(22, 22, 22);
+}
+
+.explore-projects-box-desc {
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.explore-projects-box-cat-row {
+  display: flex;
+  margin-bottom: 60px;
+}
+
+.explore-projects-box-cat {
+  display: flex;
+  margin-left: 5px;
+  padding: 3px 25px;
+  border-radius: 20px;
+  border: 1px #e57128 solid;
+  color: #e57128;
+  font-size: 9px;
+}
+
+.explore-projects-box-btn {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  margin-left: 5px;
+  padding: 5px 25px;
+  border-radius: 20px;
+  background-color: #e57128;
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+}

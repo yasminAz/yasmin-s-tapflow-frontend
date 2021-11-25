@@ -1,0 +1,27 @@
+.explore-filter-navbar {
+  margin: 20px 0 40px 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.filter-category-buttons {
+  display: flex;
+  padding: 6px 50px;
+  border-radius: 20px;
+  border: 1px #e57128 solid;
+  color: #e57128;
+  /* font-size: 8px; */
+}
+
+.filter-category-buttons:hover {
+  background-color: #e57128;
+  color: white;
+  font-weight: 600;
+}
+
+.navbar-filter-icon {
+  width: 40px;
+  font-size: 30px;
+  color: #e57128;
+}

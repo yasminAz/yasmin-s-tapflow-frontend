@@ -1,0 +1,90 @@
+/**** Profile Page ****/
+.profile-pg-edit-icon {
+  position: absolute;
+  top: 15px;
+  right: -80px;
+}
+
+.profile-pg-rest-section {
+  width: 100%;
+  display: flex;
+  /* background-color: red; */
+}
+
+.profile-pg-rest-section-right {
+  width: 35%;
+  padding: 10px;
+  background-color: blue;
+  /* height: 50px; */
+}
+
+.profile-pg-rest-section-left {
+  padding: 10px;
+  width: 65%;
+  padding: 20px;
+  /* height: 50px; */
+  /* background-color: green; */
+}
+
+/**** General Info ****/
+.profile-pg-gen-info {
+  width: 80%;
+  background-color: #ffedb8;
+  border-radius: 20px;
+  padding: 10px;
+  display: flex;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.profile-pg-image {
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.profile-pg-gen-info-title {
+  font-size: 10px;
+  color: rgb(49, 49, 49);
+  margin-top: 25px;
+}
+
+.profile-pg-gen-info-main {
+  font-size: 18px;
+  color: rgb(49, 49, 49);
+  font-weight: 700;
+}
+
+/********************/
+/***skills section***/
+/********************/
+
+.profile-pg-skills-section {
+  width: 100%;
+}
+
+.profile-pg-main-skills-row {
+  width: 100%;
+  display: flex;
+  margin-bottom: 10px;
+}
+.profile-pg-sub-skills-row {
+  width: 100%;
+  display: flex;
+}
+
+.profile-pg-main-skills-btn {
+  margin-left: 5px;
+  padding: 5px 25px;
+  border-radius: 20px;
+  background-color: #e57128;
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+/**** Bio Section ****/
+
+.profile-pg-bio-section {
+}

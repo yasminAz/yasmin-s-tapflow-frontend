@@ -1,0 +1,37 @@
+.see-all-active {
+  width: 50%;
+  height: 40vh;
+}
+
+.see-all-active-header {
+  display: flex;
+  justify-content: space-around;
+}
+
+.see-all-active-title {
+  font-size: 20px;
+  color: rgb(28, 28, 28);
+  font-weight: 800;
+}
+
+.see-all-active-btn {
+  font-size: 10px;
+  color: rgb(28, 28, 28);
+  font-weight: 300;
+  text-decoration: underline;
+  margin: 0;
+}
+
+.see-all-active-proj-row {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 3%;
+}
+
+.see-all-active-proj-box {
+  height: 150px;
+  width: 150px;
+  background-color: #e57128;
+  color: white;
+  border-radius: 10px;
+}

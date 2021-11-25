@@ -1,0 +1,183 @@
+.landing-container {
+  background-image: url("./images/Landing-page-bg-no-boys.svg");
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: top;
+  min-height: 100vh;
+}
+.landing-text p {
+  font-weight: 900;
+  font-size: 50px;
+  line-height: 59px;
+  text-align: center;
+  color: #000000;
+  padding: 60px 0 30px 0;
+  margin: 0;
+}
+.Orange-Button {
+  width: 240px;
+  height: 50px;
+  background: #e66c0d;
+  border-radius: 100px;
+  border: none;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  color: #fff6e9;
+}
+.Buttons-Help a {
+  font-weight: 600;
+  font-size: 20px;
+  color: #49505b;
+  text-decoration: none;
+  line-height: 23px;
+  padding-left: 30px;
+}
+.Buttons-Help a:hover {
+  text-decoration: underline;
+}
+.Buttons-Help {
+  text-align: center;
+  padding-bottom: 50px;
+}
+.landing-image {
+  text-align: center;
+  padding-bottom: 50px;
+}
+.landing-image img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.nav {
+  justify-content: center;
+  border-bottom: none !important;
+  width: 100%;
+}
+.nav li {
+  width: 50%;
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+  background-color: transparent;
+  border: none;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 45px;
+  text-align: center;
+  color: #e66c0d !important;
+  outline: none !important;
+}
+.nav-link {
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 45px;
+  text-align: center;
+  color: #000000 !important;
+  outline: none !important;
+  border: none !important;
+  margin: 0 auto;
+}
+.nav-tabs .nav-link:focus,
+.nav-tabs .nav-link:hover {
+  border: none;
+}
+.nav-item {
+  outline: none !important;
+}
+.fl-signup-input,
+.fl-login-input {
+  border: 1px solid black;
+  width: 100%;
+  height: 50px;
+  border-radius: 100px;
+  background-color: white !important;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  color: #b4b4b4 !important;
+  padding: 0 20px;
+}
+.Submit-button {
+  width: 150px;
+  height: 50px;
+  background: #acacac;
+  border-radius: 100px;
+  border: none;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 23px;
+  color: white;
+  display: block;
+  float: right;
+}
+.Centered {
+  text-align: center;
+}
+.modal-content {
+  border-radius: 50px 40px 50px 50px !important;
+  border: none !important;
+}
+.modal-body {
+  padding: 50px !important;
+}
+.form-inputs-spacing {
+  padding: 10px 0 50px 0;
+}
+.modal-freelancer {
+  width: 715px;
+}
+.modal-close {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  right: -20px;
+  border-radius: 100px;
+  background-color: rgba(214, 73, 44, 1);
+  color: white;
+  border: none;
+  top: -20px;
+  z-index: 99999;
+}
+.error-msg {
+  text-align: initial;
+  color: red;
+  font-size: 14px;
+  font-weight: 500;
+}
+@media (max-width: 991px) {
+  .landing-text p {
+    font-size: 25px;
+    line-height: 30px;
+    padding: 30px 0;
+  }
+  .Submit-button {
+    margin: 0 auto;
+    float: none;
+  }
+  .modal-freelancer {
+    width: auto;
+  }
+}
+@media (max-width: 576px) {
+  .modal-close {
+    right: 0;
+    top: -20px;
+  }
+  .nav-link {
+    font-size: 25px !important;
+  }
+  .Orange-Button {
+    display: block;
+    margin: 10px auto;
+  }
+  .fl-login-input,
+  .fl-signup-input {
+    width: 100%;
+    font-size: 16px;
+  }
+  .Submit-button {
+    font-size: 18px;
+  }
+}

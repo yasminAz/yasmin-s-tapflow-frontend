@@ -1,0 +1,15 @@
+/* .home-header-nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0;
+  width: 100%;
+  height: 60px;
+  text-align: left;
+} */
+
+.home-nav-box {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
