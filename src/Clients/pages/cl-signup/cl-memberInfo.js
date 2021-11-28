@@ -46,9 +46,18 @@ function CLMemberInfo() {
   const [showRequest, setShowRequest] = useState(false);
   const handleRequestClose = () => setShowRequest(false);
   const handlRequestShow = () => setShowRequest(true);
-
   let userData = useSelector((state) => state);
-  console.log("State of redux in cl memeber", userData);
+  console.log(
+    "State in locL STORAGE WITHOUT TIMEOUT",
+    window.localStorage.getItem("state")
+  );
+  setTimeout(function () {
+    console.log(
+      "State in locL STORAGE WITH TIMEOUT",
+      window.localStorage.getItem("state")
+    );
+  }, 6000);
+
   // const fileInputRef = useRef();
   // const profileImageRef = useRef();
 

@@ -109,11 +109,15 @@ function CLSignup() {
               )
             );
             console.log("this is from useSelect", UserDATA);
-            console.log(
-              "this is the state from local storage",
-              localStorage.getItem("state")
-            );
-            // window.location = `/clUser/signup/memberInfo`;
+            // setTimeout(function () {
+            //   console.log(
+            //     "this is the state from local storage",
+            //     window.localStorage.getItem("state")
+            //   );
+            // }, 3000);
+            setTimeout(function () {
+              window.location = `/clUser/signup/memberInfo`;
+            }, 3000);
           } else {
             let errors = api_resp.data;
             if (errors.first_name) {
